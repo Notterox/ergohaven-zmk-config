@@ -15,7 +15,7 @@ include:
   - board: ergohaven
     shield: velvet_v3_qube qube dongle_screen
     snippet: studio-rpc-usb-uart
-    cmake-args: -DCONFIG_ZMK_STUDIO=y
+    cmake-args: -DCONFIG_ZMK_STUDIO=y -DCONFIG_PMW3610_REPORT_INTERVAL_MIN=0
     artifact-name: velvet_v3_qube-ergohaven-zmk
   - board: ergohaven
     shield: velvet_v3_qube qube dongle_screen
@@ -32,12 +32,12 @@ include:
     shield: velvet_v3_ui_right
     keymap: velvet_v3_ui_ruen
     snippet: studio-rpc-usb-uart
-    cmake-args: -DCONFIG_ZMK_STUDIO=y
+    cmake-args: -DCONFIG_ZMK_STUDIO=y -DCONFIG_PMW3610_REPORT_INTERVAL_MIN=0
     artifact-name: velvet_v3_ui_right_ruen-ergohaven-zmk
   - board: ergohaven
     shield: velvet_v3_ui_right
     snippet: studio-rpc-usb-uart
-    cmake-args: -DCONFIG_ZMK_STUDIO=y
+    cmake-args: -DCONFIG_ZMK_STUDIO=y -DCONFIG_PMW3610_REPORT_INTERVAL_MIN=0
   - board: ergohaven
     shield: velvet_v3_ui_qube qube dongle_screen
     snippet: studio-rpc-usb-uart
