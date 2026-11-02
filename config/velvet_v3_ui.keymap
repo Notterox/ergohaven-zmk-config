@@ -163,7 +163,7 @@
 };
 
 &trackball {
-    cpi = <1000>;
+    cpi = <1400>;
     force-awake;
     force-awake-4ms-mode;
 };
